@@ -1,0 +1,67 @@
+<html>
+   <head> 
+    <title>Employee Interests Survey Form</title>
+   </head>
+
+   <body style="text-align:center;">
+    
+        <h1>Employee Interests Survey Form</h1>
+    <div>
+        <label for="your-name-box">Enter your name:</label>
+        <input type="text" 
+            name="your-name-box"
+            placeholder="your name">
+    </div>
+    <br>
+    <div>
+        <label for="your-department-box">Enter your department:</label>
+        <input type="text"
+            name="your-department-box"
+            placeholder="your department">
+    </div>
+    <br>
+        <label for="about-yourself-box">Tell us a little about yourself:</label>
+        <textarea id="about-yourself-box" 
+        rows="6" 
+        cols="20">
+        </textarea>
+    <p>  
+    <label for="exercise">Do you exercise at home?</label>
+        <input type="radio" 
+        name="exercise"> Yes 
+        </input>
+        <input type="radio" 
+        name="exercise"> No
+        </input>
+    </p> 
+    <label for="favorite-topics">How do you like to read about your favorite topics?</label>
+    <p>  
+        <input type="checkbox"
+        name="favorite-topics"> Books
+        </input>
+        <input type="checkbox"
+        name="favorite-topics"> Online resources
+        </input>
+        <input type="checkbox"
+        name="favorite-topics"> Phone apps
+        </input>
+        <input type="checkbox"
+        name="favorite-topics"> Magazines
+        </input>
+    </p>
+    <label for="genres">What genre of movies do you like?</label>
+    <select name="genres">
+        <option value="comedy">Comedy</option>
+        <option value="horror">Horror</option>
+        <option value="drama">Drama</option>
+        <option value="sci-fi">Sci-Fi</option>
+    </select>
+    <br>
+    <p>
+    <input type="submit" 
+        value="Submit Form">
+    </p>
+
+
+    </body>
+</html>
